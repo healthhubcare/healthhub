@@ -1,0 +1,81 @@
+@CHARSET "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+label textarea{
+ width:100px;
+ border-radius:5px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.register{
+	width: 400px;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+     border-radius:10px;
+    padding: 70px 30px;
+}
+#register{
+    
+    margin-left: 95px;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+#name{
+    width: 210px;
+    height: 20px;
+    border: none;
+    border-radius: 12px;
+    outline:0;
+    padding: 5px;
+}
+#ph{
+    width: 65px;
+    padding: 6px;
+    border: none;
+    border-radius: 12px;
+    outline: 0;
+}
+#num{
+    width:130px;
+    padding: 7px;
+    border: none;
+    border-radius: 12px;
+    outline: 0;
+}
+
+.register input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.register a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.register a:hover
+{
+    color: #39dc79;
+}
